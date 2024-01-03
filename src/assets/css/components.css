@@ -1,0 +1,146 @@
+.TheContent{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 90%;
+    width: 90%;
+}
+.addUser{
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.siderbar{
+    position: sticky;
+}
+.navbar-items{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.navbar-link{
+    margin-right: 5px;
+}
+
+.layoutAll{
+    display: flex;
+    position: relative;
+}
+.Column-content{
+    position: relative;
+}
+.boder-TheContent{
+   position: relative;
+}
+
+.sidebar{
+    background-color: #3c4b64;;
+}
+.sidebar-items{
+    list-style: none;
+    margin: 10px 0px;
+}
+.sidebar-box{
+    color: var(--cui-sidebar-nav-link-color, rgba(255, 255, 255, 0.6));
+}
+.sidebar-brand{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-color: var(--cui-dark, #212333)
+}
+.sidebar-title{
+    list-style: none;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.AddUsers{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+  
+}
+.AddUsers-input{
+    margin-bottom: 20px;
+}
+
+.list-users{
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.SearchUsers{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.list-users {
+    width: 90% !important
+}
+.UserCallApi-table{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.navbar-items-emojiSearch{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.navbar-items-emojiSearch:hover{
+    background-color: #ccc;
+}
+
+.Link-style-emojisearch{
+    font-size: 30px;
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+}
+.calculator-mul{
+    background-color: #fd7e14;
+}
+.calculator-tab{
+    background-color: #ccc;
+}
+.calculator-main{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calculator-column{
+    padding: 0px;
+   
+}
+.calculator-oparator{
+    background-color: #fd7e14 ;
+    text-align: center;
+}
+.calculator-input{
+    /* background-color: black !important; */
+    text-align: end;
+    color: white !important;
+    background-color: #2c2d32 !important;
+    height: 60px;
+    font-size: 2.5rem !important;
+    width: 95% !important;
+}
+.calculator-Col{
+     border: 1px solid rgb(29, 19, 19);
+     border-radius: 5px ;
+}
+.calculator-row{
+    text-align: center;
+}
+.calculator-arr{
+    background-color: #ccc;
+}
+.calculator-box{
+    width: 95%;
+}
